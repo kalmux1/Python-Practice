@@ -2,7 +2,7 @@
 # PYTHON PROGRAME FOR VOTE
 
 
-print(" ")
+print(" ") 
 print(" WLCOME TO VOTING RIGHT PORTAL")
 print(" ")
 age = int(input(" ENTER YOUR AGE :- "))
