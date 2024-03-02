@@ -1,7 +1,7 @@
 
 # GRADE INFORMATION SYSTEM
 
-print(" ")
+print(" ") 
 print(" GRADE INFORMATION SYSTEM ")
 print(" ")
 marks=float(input(" ENTER YOUR MARKS :- "))
