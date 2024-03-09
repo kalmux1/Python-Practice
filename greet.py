@@ -7,7 +7,7 @@ timestamp=int(time.strftime('%H'))
 
 print(" KALMUX AI ")
 
-if(timestamp >= 22 and timestamp < 5):
+if(timestamp >= 22 and timestamp < 5 or timestamp == 00):
     print(" GOOD NIGHT SIR !")
 elif(timestamp >= 12 and timestamp < 16):
     print(" GOOD AFTERNOON SIR !")
