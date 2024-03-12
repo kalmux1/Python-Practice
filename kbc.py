@@ -6,6 +6,7 @@ ans= ["Loopback Address","Nitin Jaiswal","Domain Reconnaisance Tool","clear"]
 score=0
 i = 0
 
+# 
 for i in range (len(ques)):
     print(ques[i])
     opt=input("Enter Your Answer: ")
