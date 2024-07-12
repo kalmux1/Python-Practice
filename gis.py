@@ -18,3 +18,5 @@ elif(marks >= 90 and marks <= 100):
     print(" GRADE A ")
 else:
     print(" INVAILD MARKS ")
+
+# ..
