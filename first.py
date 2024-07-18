@@ -1,3 +1,3 @@
 print("hello world")
-name = "kalmux1"
+name = "kalmux"
 print(name)
