@@ -4,6 +4,14 @@ from tkinter import *
 
 root = Tk()
 
-root.geometry("733x434")
+root.title("KALMUX")
+
+root.geometry("833x534")
+
+photo = PhotoImage(file="E:\GITHUB\Python-Practice\GUI\wp.png")
+bg = Label(image=photo)
+bg.pack()
+kalmux = Label(root, text="KALMUX GUI", padx=10, pady=10, relief=RAISED)
+kalmux.pack(anchor="center")
 
 root.mainloop()
