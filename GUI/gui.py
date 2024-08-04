@@ -23,8 +23,28 @@ content = Label(frame2, text="CONTENT", fg="black", bg="lightgrey")
 content.pack(side=TOP, anchor="ne")
 
 frame3 = Frame(base,borderwidth=3, relief=SUNKEN, bg="lightgrey")
-frame3.pack(anchor="center")
+frame3.pack(anchor="center", pady= 125)
 
-b1 = Button(frame3, text="button")
-b1.pack(anchor="center")
+def msg():
+    print("Hello World !")
+
+def name():
+    print(" Kalmux ")
+
+def domain():
+    print(" Cyber Security ")
+
+def qt():
+    print(" Mikasa ")
+
+b1 = Button(frame3, text="button", command=msg)
+b1.pack(anchor="center", padx=3,pady=3)
+b2 = Button(frame3, text="button", command=name)
+b2.pack(anchor="center",padx=3,pady=3)
+b3 = Button(frame3, text="button", command=domain)
+b3.pack(anchor="center",padx=3,pady=3)
+b4 = Button(frame3, text="button", command=qt)
+b4.pack(anchor="center",padx=3,pady=3)
+
+
 base.mainloop()
