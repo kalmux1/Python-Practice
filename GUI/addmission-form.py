@@ -5,7 +5,7 @@ from tkinter import *
 base = Tk()
 
 def getvals():
-    print(f"First Name : {fnamevalue.get}")
+    print(f"First Name : {fnamevalue.get()}")
     print(f"Last Name : {lnamevalue.get()}")
     print(f"Age : {agevalue.get()}")
     print(f"DOB : {dobvalue.get()}")
