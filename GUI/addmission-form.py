@@ -4,6 +4,13 @@ from tkinter import *
 
 base = Tk()
 
+def getvals():
+    print(f"First Name : {fnamevalue.get}"())
+    print(f"Last Name : {lnamevalue.get()}")
+    print(f"Age : {agevalue.get()}")
+    print(f"DOB : {dobvalue.get()}")
+    print(f"Address : {addvalue.get()}")
+
 base.configure(bg="darkgrey")
 base.title(" COLLEGE ADMISSION FORM ")
 
@@ -54,9 +61,6 @@ add.grid(row=3, padx=10,pady=5)
 addvalue = StringVar()
 addinput = Entry(body_frame, textvariable= addvalue, width= 69)
 addinput.grid(row=3, column=1,columnspan=4)
-
-def getvals():
-    pass
 
 
 submit = Button(body_frame, text="SUBMIT" , command=getvals ,padx=15,relief=RAISED)
