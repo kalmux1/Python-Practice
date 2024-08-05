@@ -11,6 +11,10 @@ def getvals():
     print(f"DOB : {dobvalue.get()}")
     print(f"Address : {addvalue.get()}")
 
+    with open ("records.txt", "a") as f:
+        f.write(f"\nFirst Name : {fnamevalue.get()}\nLast Name : {lnamevalue.get()}\nAge : {agevalue.get()}\nDOB : {dobvalue.get()}\nAddress : {addvalue.get()}\n\n")
+    
+
 base.configure(bg="darkgrey")
 base.title(" COLLEGE ADMISSION FORM ")
 
@@ -65,5 +69,9 @@ addinput.grid(row=3, column=1,columnspan=4)
 
 submit = Button(body_frame, text="SUBMIT" , command=getvals ,padx=15,relief=RAISED)
 submit.grid(row=4,column=0, pady=80, columnspan=5)
+
+
+
+
 
 base.mainloop()
